@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Ajustes">
+        <ListPreference
+            android:key="dificultad"
+            android:title="Dificultad"
+            android:defaultValue="0"
+            android:entries="@array/Niveles"
+            android:entryValues="@array/NivelesValores"
+            android:summary="Escoge el nivel de dificultad en el que jugar"/>
+    </PreferenceCategory>
+</PreferenceScreen>
